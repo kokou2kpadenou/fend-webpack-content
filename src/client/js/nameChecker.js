@@ -1,6 +1,6 @@
 function checkForName(inputText) {
     console.log("::: Running checkForName :::", inputText);
-    let names = [
+    const names = [
         "Picard",
         "Janeway",
         "Kirk",
@@ -12,5 +12,4 @@ function checkForName(inputText) {
         alert("Welcome, Captain!")
     }
 }
-
-export { checkForName }
+export { checkForName };
