@@ -1,0 +1,14 @@
+{
+  "env": {
+    "browser": true,
+    "es2022": true,
+    "node": true
+  },
+  "globals": {
+    "Client": "readonly"
+  },
+  "parser": "@babel/eslint-parser",
+  "plugins": ["prettier"],
+  "extends": ["eslint:recommended", "prettier"],
+  "rules": {}
+}
